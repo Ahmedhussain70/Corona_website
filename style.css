@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 85px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  background-color: #f9f9f9 !important;
+}
+
+.menu {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link:hover {
+  color: turquoise;
+}
+
+.nav-link.active {
+  color: turquoise;
+}
+
+li {
+  margin-left: 40px;
+  font-weight: 500;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+li:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+
+.btn-do {
+  background-color: #7272ff;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  margin-top: -8px !important;
+  border-radius: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.btn-shield {
+  background-color: #7272ff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 170px;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.sec1 {
+  background-image: url(./imgs/shape-a.png);
+  background-size: contain;
+  /* height: 100%; */
+  margin-top: 150px;
+  /* background-color: #f9f9f9 !important; */
+}
+
+.header-img {
+  height: 423px;
+  width: 500px;
+  margin-left: auto;
+}
+
+.corona-h1 {
+  color: rgb(58, 58, 153);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h6 {
+  font: 1em sans-serif;
+  letter-spacing: 2.5;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+#btn-up {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  border-radius: 50px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #6262ff;
+  color: white;
+}
+
+.about {
+  height: 100%;
+  width: 28.333333% !important;
+  color: rgb(0, 0, 255);
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 0px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 3%);
+  margin-right: 63px;
+}
+
+.about-arrow-right {
+  margin-left: auto;
+}
+
+.about-h5 {
+  cursor: text;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.about-p {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.sec2 {
+  margin-top: 150px;
+}
+
+.DISEASE-p {
+  color: rgb(0, 0, 255);
+  font-weight: 700;
+}
+
+.CORONAVIRUS-h2 {
+  color: rgb(58, 58, 153);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.arrow-right{
+  float: right;
+  margin-right: 20px ;
+}
+
+.sec3 {
+  margin-top: 150px;
+}
+
+.p-sec3 {
+  color: rgb(0, 0, 255);
+  font-weight: 600;
+}
+
+.HOW-CORONAVIRUS-IS-SPREAD {
+  color: rgb(0, 0, 255);
+  margin-left: 107px;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+/* .TRANSMISSION-h2{
+    margin-left: 50px;
+} */
+
+.perant {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.child {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 14%), 0 8px 16px rgb(0 0 0 / 0%);
+  width: 25%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.img-spread {
+  height: 50%;
+  width: 88%;
+}
+
+.card-title {
+  color: rgb(0, 0, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-discription {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: medium;
+}
+
+.card-hr {
+  border: 3px solid !important;
+  color: rgb(0, 0, 255) !important;
+  margin: 0;
+}
+
+.question-btn {
+  background-color: #7272ff;
+  color: white;
+  border-radius: 50px;
+  width: 300px;
+  height: 35px;
+  border: none;
+  font-weight: 600;
+}
+
+.sec-4 {
+  margin-top: 150px;
+}
+
+.title-p {
+  color: rgb(0, 0, 255);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.perant2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.child2 {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 14%), 0 8px 16px rgb(0 0 0 / 0%);
+  width: 25%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.symptom-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  margin-top: -50px;
+  margin-right: 10px;
+  float: right;
+}
+
+.warning {
+  font-size: 50px;
+  color: rgb(0, 0, 255);
+}
+
+.sec4 {
+  margin-top: 150px;
+}
+
+.perant3 {
+  width: 79vw;
+  height: 80%;
+  margin-left: -267px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.child3 {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 25%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.img-advice {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.discription-sec4 {
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.advice-title {
+  font-weight: 500;
+}
+
+.right-arrow {
+  font-size: large;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.right-arrow {
+  color: #0d6efd;
+}
+
+.staps-to-protect {
+  background-color: white;
+  width: 100% !important;
+  height: 100%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 14%), 0 8px 16px rgb(0 0 0 / 0%);
+}
+
+.sec5 {
+  margin-top: 150px;
+  height: 150vh;
+}
+
+.steps-img {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.Title-staps-to-protect {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.discription-staps-to-protect {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.follow{
+  --bs-gutter-x: -0.5rem !important;
+}
+
+.sec7 {
+  margin-top: 150px;
+}
+
+.perant4 {
+  width: 63vw;
+  height: 94%;
+  margin-left: -107px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec8 {
+  width: 1345.67px;
+  height: 100vh;
+  margin-top: 150px;
+  background-color: #00317a;
+  background-image: url(./imgs/shape-a.png);
+  background-size: contain;
+}
+
+.TREATMENT-H2 {
+  color: white;
+}
+
+.TREATMENT-P {
+  color: white;
+}
+
+.about-treatment {
+  background-color: #002c6c;
+  color: white;
+  /* height: 100%; */
+  margin-top: 100px !important;
+}
+
+.Treatment-left {
+  margin-top: 100px !important;
+}
+
+.Self-Care {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.about-d {
+  margin-left: -26px;
+}
+
+.sec9-do {
+  margin-top: 150px;
+}
+
+.protect-img {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.sec10 {
+  margin-top: 150px;
+  height: 100vh;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible.active:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  width: 736px;
+  margin-left: 50px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.acordion{
+  margin-top: 100px !important;
+}
+
+.acordionBoxes {
+  width: 90%;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.Collapse {
+  margin-top: 50px !important;
+}
+
+.button-card{
+  width: 300px !important;
+  border-color: black !important;
+  text-align: left !important;
+  height: 50px;
+}
+
+.s-arrow-left{
+  float: right;
+}
+
+.button-card:hover{
+  background-color:unset !important;
+  color: unset !important;
+  border-color: blue !important;
+}
+
+.button-card:active{
+  background-color:unset !important;
+  color: unset !important;
+}
+
+.dos{
+  /* width: 20px;
+  height: 20px; */
+  display: flex;
+  flex-direction: column;
+  /* float: right; */
+}
+
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 5px 20px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #fff;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4c69ba;
+  background-image: linear-gradient(#4c69ba, #3b55a0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5b7bd5;
+  background-image: linear-gradient(#5b7bd5, #4864b1);
+}
+
+/* Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #dd4b39;
+}
+
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #e74b37;
+}
+
+.acordionBoxes {
+  width: 90%;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.acordionBoxes:active {
+  border: 1px solid rgb(2, 117, 216);
+}
+
+
+.plas{
+  font-size: 20px ;
+}
